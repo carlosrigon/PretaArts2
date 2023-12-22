@@ -73,9 +73,9 @@ class NotificationService {
             title: "Vem chegando o Natal! 🎄",
             id: 2,
             message: "Nesse natal, presentei quem você ama com um terço personalizado. Faça sua encomenda! 🎁🎇",
-            date: new Date(Date.now() + 1000 * 10),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-12-01T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         }),
 
         PushNotification.localNotificationSchedule({
@@ -83,9 +83,9 @@ class NotificationService {
             title: "Volta às aulas! 📒 🎒",
             id: 3,
             message: "As aulas estão retornando, que tal presentear com um chaveiro personalizado?! Faça sua encomenda. 🎁",
-            date: new Date(Date.now() + 1000 * 30),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-01-20T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         }),
 
         PushNotification.localNotificationSchedule({
@@ -93,9 +93,9 @@ class NotificationService {
             title: "Pesente de Páscoa 🐇",
             id: 4,
             message: "Nessa Páscoa, presenteie quem você ama 💗 com um terço personalizado. Faça sua encomenda. 🎁",
-            date: new Date(Date.now() + 1000 * 60),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-03-01T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         }),
 
         PushNotification.localNotificationSchedule({
@@ -103,9 +103,9 @@ class NotificationService {
             title: "Dia das Mães 👪",
             id: 5,
             message: "Presenteie sua MÃE 👩 com um lindo terço personalizado. Faça sua encomenda 🎁",
-            date: new Date(Date.now() + 1000 * 90),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-04-15T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         }),
 
         PushNotification.localNotificationSchedule({
@@ -113,9 +113,9 @@ class NotificationService {
             title: "O Amor está no ar 💘💕",
             id: 6,
             message: "O dia dos namorados está chegando. Presenteie seu AMOR 😍 com um lindo terço personalizado. Faça sua encomenda 🎁",
-            date: new Date(Date.now() + 1000 * 120),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-05-15T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         }),
 
         PushNotification.localNotificationSchedule({
@@ -123,9 +123,9 @@ class NotificationService {
             title: "Dia dos Pais 👨‍👧‍👦",
             id: 7,
             message: "Presenteie seu PAI 👨 com um lindo terço personalizado. Faça sua encomenda 🎁",
-            date: new Date(Date.now() + 1000 * 150),
-            //repeatType: "month",
-            //repeatTime: 12
+            date: new Date('2024-07-10T09:00:00'),
+            repeatType: "month",
+            repeatTime: 12
         })
     }
 
