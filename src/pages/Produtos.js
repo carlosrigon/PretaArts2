@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {  Image } from 'react-native';
 import { Box, Center, Heading, HStack, Text } from "native-base";
 
 export default function Produtos() {
@@ -16,13 +17,13 @@ export default function Produtos() {
 
                 <HStack padding={4} h="150" w="80%" alignItens="center" justifyContent="center" showHorizontalScrollIndicator={false}>
 
-                    <Box>
-                        <Image source={require('../src/img/img10.jpg')} alt="Terço Personalizado Menino" heigth="150" width="90" br={15}/>
-                        <Image source={require('../src/img/img09.jpg')} alt="Terço Personalizado Menina" heigth="150" width="90" br={15}/>
-                        <Image source={require('../src/img/img12.jpg')} alt="Terço Personalizado Feminino" heigth="150" width="90" br={15}/>
-                        <Image source={require('../src/img/img18.jpg')} alt="Terço Personalizado Masculino" heigth="150" width="90" br={15}/>
-                        <Image source={require('../src/img/img19.jpg')} alt="Terço Personalizado Sortidos" heigth="150" width="90" br={15}/>
-                    </Box>
+                
+                        <Image source={require('../img/img10.jpg')} alt="Terço Personalizado Menino" heigth="150" width="90" br={15}/>
+                        <Image source={require('../img/img09.jpg')} alt="Terço Personalizado Menina" heigth="150" width="90" br={15}/>
+                        <Image source={require('../img/img12.jpg')} alt="Terço Personalizado Feminino" heigth="150" width="90" br={15}/>
+                        <Image source={require('../img/img18.jpg')} alt="Terço Personalizado Masculino" heigth="150" width="90" br={15}/>
+                        <Image source={require('../img/img19.jpg')} alt="Terço Personalizado Sortidos" heigth="150" width="90" br={15}/>
+                
 
                     
                 </HStack>
@@ -42,11 +43,11 @@ export default function Produtos() {
                 <HStack padding={4} h="150" w="80%" alignItens="center" justifyContent="center" showHorizontalScrollIndicator={false}>
 
                     <Box>
-                        <Image source={require('../src/img/img28.jpg')} alt="Chaveiro Personalizado Feminino" heigth="90" width="150" br={15}/>
-                        <Image source={require('../src/img/img25.jpg')} alt="Terço Personalizado Masculino" heigth="90" width="150" br={15}/>
-                        <Image source={require('../src/img/img28.jpg')} alt="Terço Personalizado Menina" heigth="90" width="150" br={15}/>
-                        <Image source={require('../src/img/img21.jpg')} alt="Terço Personalizado Menino" heigth="90" width="150" br={15}/>
-                        <Image source={require('../src/img/img24.jpg')} alt="Terço Personalizado Sortidos" heigth="90" width="150" br={15}/>
+                        <Image source={require('../img/img28.jpg')} alt="Chaveiro Personalizado Feminino" heigth="90" width="150" br={15}/>
+                        <Image source={require('../img/img25.jpg')} alt="Terço Personalizado Masculino" heigth="90" width="150" br={15}/>
+                        <Image source={require('../img/img28.jpg')} alt="Terço Personalizado Menina" heigth="90" width="150" br={15}/>
+                        <Image source={require('../img/img21.jpg')} alt="Terço Personalizado Menino" heigth="90" width="150" br={15}/>
+                        <Image source={require('../img/img24.jpg')} alt="Terço Personalizado Sortidos" heigth="90" width="150" br={15}/>
                     </Box>
 
                     
