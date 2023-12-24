@@ -9,8 +9,7 @@ import Icones from 'react-native-vector-icons/Ionicons';
 import { Notification } from './src/componentes/NotificationService';
 
 import Home from './src/pages/Home';
-import Produtos from './src/pages/Produtos';
-import Footer from './src/pages/Footer';
+
 
 // Declaração de constantes
 const notificador = Notification;
@@ -24,11 +23,9 @@ export default function App() {
 
   return (
     <NativeBaseProvider>
-      <ScrollView>
-        <Home />
-        <Produtos />
-        <Footer />
-      </ScrollView>
+      
+        <Home/>
+            
     </NativeBaseProvider>
   );
 }
